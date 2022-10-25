@@ -3,7 +3,6 @@
    width: 100%;
    max-width:1150;
    max-height: 700px;
-   margin: 0px;
 }
 .container_left {
    width: 70%;
@@ -37,8 +36,7 @@ line-height: 6px;
 /* identical to box height */
 letter-spacing: 0.14em;
 margin-top: 15px;
-margin-left: 0px;
-margin-right: 0px;
+
 
 
 }
