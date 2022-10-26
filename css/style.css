@@ -31,7 +31,7 @@ body {
    border-radius: 30px 0px 0px 30px;
 }
 .container_right button {
-   width: fit-content;
+   width: 140px;
    max-width: 140px;
    height: 40px;
    text-align: center;
@@ -47,7 +47,13 @@ line-height: 12px;
 /* identical to box height */
 letter-spacing: 0.14em;
 margin-top: 30px;
-margin-left: 10;
+margin-left: 10px;
+}
+@media only screen and (min-width:500px) and (orientation:landscape) {
+.container_right button {
+   width:80px;
+   max-width: 80px;
+}   
 }
 .container_left_nav {
    margin: 30px;
