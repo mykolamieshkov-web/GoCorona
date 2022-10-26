@@ -1,1 +1,109 @@
+.right_part button {
+   width: 50px;
+   height: 20px;
+   text-align: center;
+   color: #FAFBFD;
+   border: none;
+   border-radius: 5px;
+   margin: 0px;
+   margin-top: 15px;
+   background: #4285F4;
+   font-size: 5px;
+   font-family: 'Raleway', sans-serif;
+}
+.left_nav_links {
+   margin: 15px;
+   margin-left: 30px;
+  
+}
+.left_nav_links a {
+   margin-left: 2px;
+   text-align: center;
+   text-decoration: none;
+   font-family: 'Raleway, sans-serif';
+font-style: normal;
+font-weight: 700;
+font-size: 5px;
+line-height: 12px;
+/* identical to box height */
+letter-spacing: 0.14em;
+
+color: #000000;
+}
+.left_part_text {
+
+   height: 220px;
+   margin: 10PX;
+   width: 243px;
+   display: block;
+   margin-top: 30px;
+   }
+   .left_part_text h1 {
+      font-style: normal;
+      font-family: 'Rubik', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 25px;
+      font-feature-settings: 'pnum' on, 'lnum' on;
+      color: #000000;
+      margin: 5px;
+   }
+   .left_part_text p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 6px;
+      line-height: 9px;
+      font-family: 'Rubik', sans-serif;
+      letter-spacing: 0.08em;
+      font-feature-settings: 'pnum' on, 'lnum' on;
+      
+      color: #616161;
+      margin: 6px;
+   }
+   .left_part_text button {
+      width: 50px;
+      height: 20px;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      background: #EC5863;
+      color: #FAFBFD;
+      font-size: 6px;
+      margin:20px;
+      margin-top: 5px;
+   }
+   .left_part_content img {
+      max-width: 100%; 
+      width: 50%;
+      height: 50%;
+      margin-top: 50px;
+   }
+
+.button_section {
+   width: 114px;
+   height: 40px;
+   margin-left: 35px;
+   display: flex;
+   gap: 1px;
+}
+.button_section button {
+   width: 22px;
+   height: 22px;
+   border: 0.5px solid #4285F4;
+   border-radius: 50%;
+   background: #FAFBFD;
+   text-align: center;
+
+}
+.button_section p {
+   font-style: normal;
+font-weight: 400;
+font-size: 7px;
+line-height: 126%;
+/* or 16px */
+letter-spacing: 0.08em;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #B0B0B0;
+margin-top: 5px;
+}
 
