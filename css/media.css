@@ -163,3 +163,68 @@ margin-top: -30px;
    font-size: 12px;
    height: 40px;
 }
+.banner_container_title img {
+   width: 35%;
+   height: 35%;
+}
+.banner_container_text h1 {
+   font-style: normal;
+   font-family: 'Rubik', sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 25px;
+   font-feature-settings: 'pnum' on, 'lnum' on;
+   color: #000000;
+   margin: 5px;
+}
+.banner_container_text p {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 6px;
+   line-height: 9px;
+   font-family: 'Rubik', sans-serif;
+   letter-spacing: 0.08em;
+   font-feature-settings: 'pnum' on, 'lnum' on;
+   
+   color: #616161;
+   margin: 6px;
+}
+.banner_container_text button {
+   width: 50px;
+   height: 20px;
+   border: none;
+   border-radius: 5px;
+   text-align: center;
+   background: #EC5863;
+   color: #FAFBFD;
+   font-size: 6px;
+   margin:20px;
+   margin-top: 5px;
+}
+.title h1 {
+   font-style: normal;
+   font-family: 'Rubik', sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 25px;
+   font-feature-settings: 'pnum' on, 'lnum' on;
+   color: #000000;
+   margin: 5px;
+   text-align: center;
+}
+.title p {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 6px;
+   line-height: 9px;
+   font-family: 'Rubik', sans-serif;
+   letter-spacing: 0.08em;
+   font-feature-settings: 'pnum' on, 'lnum' on;
+   text-align: center;
+   color: #616161;
+   margin: 6px;
+}
+.column_row img {
+width: 33.3%;
+height: 50%;
+}
