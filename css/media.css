@@ -110,18 +110,15 @@ margin-top: 5px;
    width: min(100% - 15px, 840px);
    margin-inline: auto;
    height: 700px;
-   border: 1px solid green;
 }
 .stay_safe_left {
    width:60%;
    height:542px;
-   border: 1px solid red;
    margin: 10px;
 }
 .stay_safe_right {
 width: 40%;
 height: 238px;
-border: 1px solid blue;
 margin-left: 50px;
 margin: 10px;
 margin-top: 145px;
