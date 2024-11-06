@@ -1,0 +1,51 @@
+// ширина ограничующего контента:
+$screen-max-width: 1440px;
+// половина отступа между блоками для margin-block:
+$margin-y: 40px;
+
+// параграфы и ссылки с резиновым текстом
+
+// скрываем тескт-подсказку для кнопок
+
+.visually-hidden {
+ @include visually-hidden; 
+  }
+// ограничивающий контейнер: 
+.container {
+    max-width: $screen-max-width;
+    margin: 0 auto;
+   
+    
+}
+a {
+  font-family: "Raleway", sans-serif;
+  line-height: calc(14 / 10 * 100%);
+
+  font-size: 10px;
+  letter-spacing: 14%;
+  font-weight: 800;
+  text-align: left;
+  text-wrap: nowrap;
+  text-transform: uppercase;
+
+}
+.btn-red {
+  background-color: var(--red);
+  @include hover {
+    background-color: var(--blue);
+  }
+}
+.btn-blue {
+  background-color: var(--blue);
+  @include hover {
+    color: var(--red);
+  }
+}
+
+.btn {
+  @include btn;
+}
+
+
+
+

@@ -1,0 +1,13 @@
+body, html {
+ scroll-behavior: smooth;
+width: 100%;
+height: auto;
+min-height: 100%;
+font-family: 'Rubik' sans-serif;
+font-weight: 400;
+letter-spacing: 8%;
+line-height: 138.5%;
+color: var(--paragraph);
+background-color: var(--background);
+overflow-x: hidden;
+}

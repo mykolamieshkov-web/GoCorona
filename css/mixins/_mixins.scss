@@ -1,0 +1,40 @@
+// максимальная ширина кнопки: 
+$btn-max-width: 144px;
+// минимальная высота кнопки: 
+$btn-min-height: 40px;
+// скруглеение углов кнопки: 
+$btn-corner: 5px;
+
+
+@mixin visually-hidden {
+ position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  white-space: nowrap !important;
+  clip-path: inset(100%) !important;
+  clip: rect(0 0 0 0) !important;
+  overflow: hidden !important;
+}
+@mixin btn {
+   width: $btn-max-width;
+   max-width: $btn-max-width;
+   min-height: $btn-min-height;
+   padding: 8px 12px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: none;
+   border-radius: $btn-corner;
+   transition: all 200ms ease;
+   
+   color: var(--btn);
+   @include mobile {
+      max-width: calc($btn-max-width / 1.618);
+
+   }
+   
+
+}

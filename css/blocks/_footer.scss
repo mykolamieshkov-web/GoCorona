@@ -1,0 +1,9 @@
+.footer {
+//    прибиваем к низу:
+margin-block: $margin-y;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+flex-flow: row nowrap;
+}

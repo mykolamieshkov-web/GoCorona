@@ -1,0 +1,146 @@
+.hero {
+    width: 100%;
+    min-height: 700px;
+    margin-block: $margin-y;
+
+    // .hero__container
+
+    &__container {
+        height: inherit;
+        
+        display: flex;
+        justify-content: space-between;
+        gap: 200px;
+        position: relative;
+    }
+
+    // .hero__content
+
+    &__content {
+        margin-block: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 130px;
+        flex-flow: row wrap-reverse;
+        row-gap: $margin-y;
+    }
+    &__image {
+        position: relative;
+        z-index: 80;
+        width: 547px;
+        height: 394px;
+        @include tablet {
+            width: calc(547px / 1.618);
+            height: calc(394px / 1.618);
+            margin-inline: auto;
+            display: block;
+        }
+
+    }
+    &__text { 
+        h1 {
+            color: var(--heading);
+            font-size: 44px;
+            line-height: 126%;
+            letter-spacing: 0;
+            font-weight:bold;
+            text-align: left;
+            width: 497px;
+            min-height: 108px;
+            margin-bottom: 23px;
+            @include tablet {
+                font-size: calc(44px / 1.618);
+                max-width: 68vw;
+                
+            }
+
+        }
+        span {
+            color: var(--blue);
+        }
+        p {
+            width: 375px;
+            min-height: 36px;
+            margin-bottom: 28px;
+            @include tablet {
+                max-width: 98vw;
+                margin-inline: 15px;
+                padding-inline:4px;
+            }
+            @include mobile {
+                max-width: 68vw;
+            }
+            
+        }
+
+    }
+
+    // .hero__decoration
+
+    &__decoration {
+        
+        width: 295px;
+        height: 700px;
+        border-radius: 30px 0 30px 0;
+        background-color: var(--red);
+        position: absolute;
+        right: 0;
+        top: 0;
+       
+        @include tablet {
+            max-width: 58px;
+            
+        }
+       
+    }
+    .hero {
+
+		// .hero__video
+
+		&__video {
+            display: flex;
+            flex-flow: column nowrap;
+            row-gap: 1px;
+            align-items: center;
+            
+            width: 228px;
+            min-height: 44px;
+            margin-top: 100px;
+            
+		}
+
+		// .hero__video--icon
+
+		&__video--icon {
+            width: 44px;
+            height: 44px;
+           
+		}
+
+
+		// .hero__video--text
+
+		&__video--text { 
+            display: flex;
+            flex-flow: column nowrap;
+            row-gap: 4px;
+            justify-content: center;
+            align-items: center;
+		}
+
+		// .hero__video--link
+
+		&__video--link {
+            text-align: left;
+
+		}
+}
+.transparent {
+    text-align: center;
+    color: var(--blue);
+    opacity: 0.4;
+}
+
+}
+
